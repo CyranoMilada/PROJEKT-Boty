@@ -54,13 +54,15 @@ body {
 
 .bota {
     position: absolute;
-    left: -100px;
+    left: -80px;
     bottom: 10px;
 }
 
 .motto {
     font-size: 15px;
     font-weight: 500;
+    margin: 0;
+    padding-top: 30px;
 }
 
 .cena {
@@ -79,13 +81,63 @@ body {
     bottom: 30px;
 }
 
-.velikosti {
-    display: inline;
+.vpravo {
+    position: relative;
 }
 
-li {
-    display: inline-block;
+.nazev {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
+
+.seda {
+    color: #959595;
+}
+
+.damska {
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.velikost {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border-top: 2px solid #06d7c1; 
+    padding: 30px 0 0 0;
+    margin-top: 30px;
+}
+
+.velikosti {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.velikosti li {
+    border: 2px solid black;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.kosik {
+    color: white;
+    background-color: #f15f42;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid #f15f42;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
 
 
 
