@@ -35,7 +35,7 @@ body {
     width: 670px;
     height: 440px;
     background-color: white;
-    margin: 50px auto;
+    margin: 100px auto;
     border-radius: 20px;
 }
 
@@ -118,11 +118,16 @@ body {
 }
 
 .velikosti li {
-    border: 2px solid black;
     margin: 0 10px 0 0;
     padding: 5px;
-    border-radius: 50%;
+    
     text-align: center;
+}
+
+.oznacena {
+    color: #f15f42;
+    border: 2px solid #f15f42;
+    border-radius: 50%;
 }
 
 .kosik {
